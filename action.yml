@@ -7,15 +7,11 @@ runs:
   main: 'dist/index.js'
 
 inputs:
-  name:
-    description: 'The name of the person to greet'
-    required: true
-    default: 'World'
-  errorLabel:
+  error-label:
     description: "The label to add to the issue if the code doesn't pass the linter"
     required: true
     default: 'error-in-repro-code'
-  eslintConfig:
+  eslint-config:
     description: 'The eslint config to use'
     required: true
     default: |
