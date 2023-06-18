@@ -1,0 +1,13 @@
+name: 'ESLint Issue Repro Snippet'
+description: 'Enforce code repro requirements on posted issues by running eslint'
+author: 'Miklós Fazekas'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
+inputs:
+  name:
+    description: 'The name of the person to greet'
+    required: true
+    default: 'World'
