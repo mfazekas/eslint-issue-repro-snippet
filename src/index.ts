@@ -3,10 +3,6 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const { ESLint } = require('eslint');
 
-// eslint plugins
-require('eslint-plugin-import');
-require('eslint-plugin-react');
-
 const Config = {
   /// the login of the but used to make the comment
   botLogin: 'github-actions[bot]',
